@@ -1,8 +1,8 @@
 #!/bin/sh
 
-opkg update
+apk update
 
-opkg install coreutils-sleep
+apk add coreutils-sleep
 
 mkdir /usr/local/
 mkdir /usr/local/LED/
